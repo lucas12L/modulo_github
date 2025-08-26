@@ -16,3 +16,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - added: listas.html
 - added: tabelas.html
 - added: containers.html
+- added: adição de tags no arquivo formulário.html
