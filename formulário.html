@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="pt-br"
-<head>
+<html lang="pt-br">
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>formulário</title>
@@ -10,7 +10,22 @@
     <h1>Formulário</h1>
    </header> 
    <main>
-
+    <form>
+        <input type="text" placeholder="seu nome" /> <br />
+        <label for="email">Seu e-mail</label>
+        <input id="email" type="email" /> <br />
+        <input type="tel" /> <br />
+        <input type="number" max="10" min="-2" step="2"> <br />
+        <input type="file" /> <br />
+        <input type="color" /> <br />
+        <Input type="checkbox" id="chexkbox-termos" /> <label for="chexkbox-termos">Aceito os termos</label>
+           <p>
+            Qual sua cor favorita?
+           </p> 
+           <input type="radio" id="cor-vermelho" name="cor-favorita"/> <label for="cor-vermelho">Vermelho</label>
+           <input type="radio" id="cor-azul" name="cor-favorita"/> <label for="cor-azul">Azul</label>
+           <input type="radio" id="cor-verde" name="cor-favorita"/> <label for="cor-verde">Verde</label>
+    </form>
    </main>
 </body>
 </html>
