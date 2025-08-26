@@ -12,3 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - added: changelog
 - added: arquivo.txt e arquivo2.txt
 - added: index.html
+- added: formulário.html
+- added: listas.html
+- added: tabelas.html
+- added: containers.html
